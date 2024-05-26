@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const post = async (endpoint, data, cancelToken) => {
     const url = process.env.REACT_APP_BACKEND_URL;
-    const token = process.env.REACT_APP_API_TOKEN;
+    const token = "STATICAPIkeyForTestingAnAuthMethod";
 
     try {
         const response = await axios.post(`${url}/${endpoint}`, data, {
