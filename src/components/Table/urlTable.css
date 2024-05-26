@@ -1,0 +1,16 @@
+.truncated-text {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.custom-li {
+    text-align: left;
+}
