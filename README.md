@@ -1,25 +1,28 @@
-# Getting Started with Create React App
+# Sykell Test Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a React-based frontend (`sykell-front`). Below you will find the instructions to set up the environment, and run component.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before starting the setup, ensure you have the following installed on your system:
 
-### `npm start`
+- **Node.js and npm**: Required to run the frontend. Make sure you have them installed by running `node -v` and `npm -v` in your terminal. If they are not installed, download them from [Node.js official website](https://nodejs.org/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Setup
 
-### `npm test`
+Ensure the .env file in the sykell-front directory contains the correct URL pointing to your backend. The entry should look something like this:
+REACT_APP_BACKEND_URL=http://localhost:8080
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install all necessary dependencies:
+```bash
+npm install
+```
 
-### `npm run build`
+## Run Frontend
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# SUPPORT
+For support, please contact chabib.elmalki@gmail.com
